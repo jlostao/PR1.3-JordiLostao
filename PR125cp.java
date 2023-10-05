@@ -16,5 +16,7 @@ public class PR125cp {
         Path destination = Paths.get(scan.nextLine());
 
         Files.copy(origen, destination);
+
+        scan.close();
     }
 }

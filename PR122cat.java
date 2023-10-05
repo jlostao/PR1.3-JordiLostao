@@ -8,6 +8,7 @@ public class PR122cat {
         String path = scan.nextLine();
         File folderfile = new File(path);
         int lineNum = 1;
+        scan.close();
         
         if (folderfile.isDirectory()) {
             System.out.println("El path no correspon a un arxiu, sinó a una carpeta");
@@ -23,5 +24,7 @@ public class PR122cat {
                 e.printStackTrace();
             }
         }
+
+        
     }
 }
