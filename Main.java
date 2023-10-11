@@ -18,6 +18,12 @@ public class Main {
       menu = menu + "\n 4) PR123sobreescriu";
       menu = menu + "\n 5) PR124linies";
       menu = menu + "\n 6) PR125cp";
+      menu = menu + "\n 7) PR130mainPersonesHashmap";
+      menu = menu + "\n 8) PR131mainEscriu";
+      menu = menu + "\n 9) PR131mainLlegeix";
+      menu = menu + "\n 10) PR132main";
+      menu = menu + "\n 11) PR133mainTreballadors";
+      menu = menu + "\n 12) PR134estudiants";
       menu = menu + "\n 100) Sortir";
       System.out.println(menu);
 
@@ -32,6 +38,12 @@ public class Main {
           case 4: PR123sobreescriu.main(args); break;
           case 5: PR124linies.main(args); break;
           case 6: PR125cp.main(args); break;
+          case 7: PR130mainPersonesHashmap.main(args); break;
+          case 8: PR131mainEscriu.main(args); break;
+          case 9: PR131mainLlegeix.main(args); break;
+          case 10: PR132main.main(args); break;
+          case 11: PR133mainTreballadors.main(args); break;
+          case 12: PR134estudiants.main(args); break;
           case 100: running = false; break;
           default: break;
         }
